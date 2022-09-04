@@ -1,0 +1,26 @@
+.header {
+  padding: 10px 16px;
+  background: rgb(255, 255, 255);
+  color: #201f1f;
+  text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.logo {
+  height: 75px;
+  display: inline-block;
+  vertical-align: top;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
