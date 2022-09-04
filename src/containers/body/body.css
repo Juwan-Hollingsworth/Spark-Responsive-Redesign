@@ -13,3 +13,14 @@
   width: 100%; /* you can use % */
   height: auto;
 }
+
+.btn_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.btn_column {
+  flex: 50%;
+}

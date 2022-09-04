@@ -14,6 +14,11 @@ function Body() {
               serving small to medium businesses.
             </h2>
           </div>
+          {/* button grid */}
+          <div className="btn_row">
+            <div className="btn_column">A</div>
+            <div className="btn_column">B</div>
+          </div>
         </div>
         <div className="column">
           <img
