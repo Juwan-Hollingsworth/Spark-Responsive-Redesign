@@ -1,0 +1,15 @@
+.home__2column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column_photo {
+  width: 100%; /* you can use % */
+  height: auto;
+}
