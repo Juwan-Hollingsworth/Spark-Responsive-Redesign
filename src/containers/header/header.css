@@ -3,6 +3,11 @@
   background: rgb(255, 255, 255);
   color: #201f1f;
   text-align: center;
+
+  position: sticky;
+  z-index: 999;
+  top: -10px;
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .sticky {
@@ -23,4 +28,25 @@
   position: absolute;
   left: 0px;
   top: 0px;
+}
+
+.btnHeader parent {
+  text-align: right;
+}
+.btnHeader {
+  background-color: #00e6c3;
+  border: none;
+  padding: 20px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 32px;
+  /* need a better way to align */
+  margin-right: -800px;
+}
+.btnHeader p {
+  color: #39175d;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
 }
