@@ -8,7 +8,8 @@ function Header() {
   return (
     <div className="header" id="header">
       <img className="logo" src={spark_logo} alt="logo" />
-      <button className="btnHeader">Chat with an Expert</button>
+      <button className="loginBtn">Client Login</button>
+      <button className="chatBtn">Chat with an Expert</button>
       <Navbar />
     </div>
   );
