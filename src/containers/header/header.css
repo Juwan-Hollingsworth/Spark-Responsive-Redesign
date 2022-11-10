@@ -29,27 +29,23 @@
   left: 0px;
   top: 0px;
 }
-.loginBtn {
-  text-align: right;
-  border: none;
-  background-color: white;
+
+.ghostBtn__header {
+  display: inline-block;
+  width: 150px;
+  padding: 8px;
+  color: rgb(62, 61, 61);
+  border: 2px solid #b4b4b4;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 4px 2px;
+  margin-right: -900px;
 }
 
-.chatBtn parent {
-  text-align: right;
-}
-.chatBtn {
-  background-color: #00e6c3;
-  border: none;
-  padding: 20px;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 32px;
-  /* need a better way to align */
-  margin-right: -800px;
-}
-.chatBtn p {
+.ghostBtn__header p {
   color: #39175d;
   padding: 20px;
   text-align: center;
