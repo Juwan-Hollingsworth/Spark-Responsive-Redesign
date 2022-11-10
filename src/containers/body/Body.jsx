@@ -16,8 +16,8 @@ function Body() {
           </div>
           {/* button grid */}
           <div className="btn_row">
-            <div className="btn_column">A</div>
-            <div className="btn_column">B</div>
+            <div className="btn_column">Browse Our Services</div>
+            <div className="btn_column">Talk to an Expert</div>
           </div>
         </div>
         <div className="column">
