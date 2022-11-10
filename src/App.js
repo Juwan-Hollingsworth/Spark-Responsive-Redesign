@@ -22,3 +22,5 @@ function App() {
 }
 
 export default App;
+
+// site color scheme: purple #39175d, blue #00e6c3

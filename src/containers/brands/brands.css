@@ -1,3 +1,29 @@
 .brandTitle {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
+  color: #39175d;
+}
+
+.grid__container {
+  /* width: 800px; */
+  margin: auto;
+  width: 75%;
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.grid > img {
+  background: black;
+  padding: 1rem;
+}
+
+.grid > img::before {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
 }
