@@ -7,18 +7,21 @@ function Body() {
     <div className="Body">
       <div className="home__2column">
         <div className="column">
-          <div className="col_content">
-            <h1>Marketing Agency by Day, Creation Lab by night!</h1>
-            <h2>
-              Spark Social™ is a leading full-service digital agency in Atlanta,
-              serving small to medium businesses.
-            </h2>
+          <div className="grad_background">
+            <div className="col_content">
+              <h1>Marketing Agency by Day, Creation Lab by night!</h1>
+              <h2>
+                Spark Social™ is a leading full-service digital agency in
+                Atlanta, serving small to medium businesses.
+              </h2>
+              {/* button grid */}
+              <button className="ghostBtn__hero">View Our Solutions</button>
+              <br />
+              <button className="ghostBtn__hero">Get Started</button>
+            </div>
           </div>
-          {/* button grid */}
-          <div className="btn_row">
-            <div className="btn_column">Browse Our Services</div>
-            <div className="btn_column">Talk to an Expert</div>
-          </div>
+          <br />
+          {/* RHS Column */}
         </div>
         <div className="column">
           <img
