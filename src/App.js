@@ -1,6 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Header, Body, Brands, Services, Testimonial, CTA } from "./containers";
+import {
+  Header,
+  Body,
+  Brands,
+  Services,
+  Testimonial,
+  CTA,
+  Blog,
+} from "./containers";
 import { Page_Break } from "./component";
 
 function App() {
@@ -16,6 +24,9 @@ function App() {
         <Testimonial />
         <Page_Break />
         <CTA />
+        <Page_Break />
+        <Blog />
+        <Page_Break />
       </div>
     </div>
   );
