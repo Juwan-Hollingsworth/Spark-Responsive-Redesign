@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.cta__img {
+  height: 400px;
+}
