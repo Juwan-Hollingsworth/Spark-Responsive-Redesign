@@ -5,3 +5,11 @@
 .card__img {
   height: 300px;
 }
+.blog__btn {
+  margin: 25px;
+  margin-left: 450px;
+}
+
+.viewMore__link {
+  margin-left: 650px;
+}

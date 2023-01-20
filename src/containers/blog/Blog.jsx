@@ -61,6 +61,8 @@ function Blog() {
             </div>
           </div>
         </div>
+        <button className="blog__btn">Show More</button>
+        <p className="viewMore__link">View More Trends & Insights</p>
       </div>
     </div>
   );
