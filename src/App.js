@@ -8,6 +8,8 @@ import {
   Testimonial,
   CTA,
   Blog,
+  Whyus,
+  AIObanner,
 } from "./containers";
 import { Page_Break } from "./component";
 
@@ -27,6 +29,9 @@ function App() {
         <Page_Break />
         <Blog />
         <Page_Break />
+        <Whyus />
+        <Page_Break />
+        <AIObanner />
       </div>
     </div>
   );

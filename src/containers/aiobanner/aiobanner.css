@@ -1,0 +1,9 @@
+.btn__container {
+  margin: 15px;
+}
+
+.AIO__main {
+  /* background-color: linear-gradient(to right, #39175d, #00e6c3); */
+  background-image: linear-gradient(to right, #39175d, #00e6c3);
+  height: 400px;
+}
