@@ -8,3 +8,4 @@ export { default as CTA } from "./cta/CTA";
 export { default as Blog } from "./blog/Blog";
 export { default as Whyus } from "./whyus/Whyus";
 export { default as AIObanner } from "./aiobanner/AIObanner";
+export { default as Footer } from "./footer/Footer";

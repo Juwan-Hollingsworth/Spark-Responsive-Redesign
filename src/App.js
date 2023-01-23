@@ -10,6 +10,7 @@ import {
   Blog,
   Whyus,
   AIObanner,
+  Footer,
 } from "./containers";
 import { Page_Break } from "./component";
 
@@ -32,6 +33,8 @@ function App() {
         <Whyus />
         <Page_Break />
         <AIObanner />
+        <Page_Break />
+        <Footer />
       </div>
     </div>
   );
