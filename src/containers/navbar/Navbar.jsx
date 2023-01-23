@@ -22,7 +22,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div>Hamburger Menu</div>
+      {/* <div>Hamburger Menu</div> */}
     </div>
   );
 }

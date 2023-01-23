@@ -6,19 +6,25 @@ import Navbar from "../navbar/Navbar";
 
 function Header() {
   return (
-    <div className="header" id="header">
-      <img className="logo" src={spark_logo} alt="logo" />
-      <ul>
-        <li>
-          <button className="ghostBtn__header">Client Login</button>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <button className="ghostBtn__header">Chat with an Expert</button>
-        </li>
-      </ul>
-      <Navbar />
+    <div className="header__main" id="header">
+      <div className="logo__gr1">
+        <img src={spark_logo} alt="logo" />
+      </div>
+      <div className="nav__gr2">
+        <Navbar />
+      </div>
+      <div className="btn__gr3">
+        <ul>
+          <li>
+            <button className="ghostBtn__header">Client Login</button>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <button className="ghostBtn__header">Chat with an Expert</button>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

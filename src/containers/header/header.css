@@ -1,13 +1,16 @@
-.header {
+.header__main {
   padding: 10px 16px;
   background: rgb(255, 255, 255);
   color: #201f1f;
-  text-align: center;
 
   position: sticky;
   z-index: 999;
   top: -10px;
   box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: minmax(min-content, 300px) minmax(200px, 1fr) 160px;
+  grid-gap: 5px;
+  box-sizing: border-box;
 }
 
 .sticky {
@@ -20,19 +23,27 @@
   padding-top: 102px;
 }
 
-.logo {
-  height: 75px;
-  display: inline-block;
-  vertical-align: top;
+.logo__gr1 {
+  /* height: 135px; */
+  /* display: inline-block; */
+  /* align-items: center; */
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dbe4ed;
+}
 
-  position: absolute;
-  left: 0px;
-  top: 0px;
+.btns__gr3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .ghostBtn__header {
-  display: inline-block;
   width: 150px;
+  margin: 5px;
+
   padding: 8px;
   color: rgb(62, 61, 61);
   border: 2px solid #b4b4b4;
@@ -41,9 +52,21 @@
   outline: none;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
-  margin: 4px 2px;
-  margin-right: -900px;
+  margin: 8px -30px;
 }
+
+/* display: inline-block;
+width: 150px;
+padding: 8px;
+color: rgb(62, 61, 61);
+border: 2px solid #b4b4b4;
+border-radius: 5px;
+text-align: center;
+outline: none;
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0);
+margin: 4px 2px;
+margin-right: -900px; */
 
 .ghostBtn__header p {
   color: #39175d;
