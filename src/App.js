@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import {
   Header,
-  Body,
+  Banner,
   Brands,
   Services,
   Testimonial,
@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <div className="App_bg">
         <Header />
-        <Body />
+        <Banner />
         <Brands />
         <Page_Break />
         <Services />
