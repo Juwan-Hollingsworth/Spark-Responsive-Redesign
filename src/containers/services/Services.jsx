@@ -10,8 +10,8 @@ function Services() {
         <h2 className="servicesTitle">Our Services:</h2>
 
         {/* column cards */}
-        <div class="row">
-          <div className="column">
+        <div class="card__row">
+          <div className="card__column">
             <div className="card">
               <img src={seo_icon} alt="seo icon" height="100" width="100" />
               <h3> Search Engine Optimization</h3>

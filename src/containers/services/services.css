@@ -8,14 +8,14 @@
   color: #39175d;
 }
 
-.column {
-  margin-top: 25px;
+.card__column {
+  /* margin-top: 25px; */
   float: left;
   width: 25%;
   padding: 0 10px;
 }
 
-.row {
+.card__row {
   margin: 0 -5px;
 }
 
