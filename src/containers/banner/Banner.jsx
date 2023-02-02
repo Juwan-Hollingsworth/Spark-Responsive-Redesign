@@ -47,7 +47,7 @@ function Banner() {
       {/* RHS Column */}
       <div class="banner__column right">
         <div className="rhs__column">
-          <img className="rhs__img" src={col_photo} alt="working people"></img>
+          {/* <img className="rhs__img" src={col_photo} alt="working people"></img> */}
         </div>
       </div>
     </div>
