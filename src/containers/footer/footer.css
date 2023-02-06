@@ -1,3 +1,28 @@
 .footer__main {
   height: 300px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.column__A {
+  float: left;
+  padding-right: 50px;
+}
+
+.column__B {
+  float: left;
+  padding-right: 50px;
+}
+
+.column__C {
+  float: left;
+  padding-right: 50px;
+}
+
+.column__D {
+  float: left;
+  padding-right: 50px;
 }
