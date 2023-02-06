@@ -6,13 +6,21 @@
   text-align: center;
   margin: -5px;
   color: #39175d;
+  padding: 15px;
 }
-
+.services__main {
+  height: 600px;
+}
 .card__column {
-  /* margin-top: 25px; */
+  margin-top: 25px;
   float: left;
   width: 25%;
-  padding: 0 10px;
+  padding: 25px;
+  /* margin-left: 115px; */
+}
+
+.one {
+  margin-left: 215px;
 }
 
 .card__row {
@@ -39,6 +47,11 @@
 
 .services__button {
   margin-top: 25px;
+  margin-left: 100px;
+  padding: 15px;
+  /* align-items: center; */
+
+  width: 200px;
 }
 
 /* one column layout (vertical) on small screens */

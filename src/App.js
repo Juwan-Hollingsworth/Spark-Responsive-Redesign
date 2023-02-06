@@ -1,18 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import {
-  Header,
-  Banner,
-  Brands,
-  Services,
-  Testimonial,
-  CTA,
-  Blog,
-  Whyus,
-  AIObanner,
-  Footer,
-} from "./containers";
-import { Page_Break } from "./component";
+import { Header, Banner, Footer, Body } from "./containers";
 
 function App() {
   return (
@@ -20,20 +8,7 @@ function App() {
       <div className="App_bg">
         <Header />
         <Banner />
-        <Brands />
-        <Page_Break />
-        <Services />
-        <Page_Break />
-        <Testimonial />
-        <Page_Break />
-        <CTA />
-        <Page_Break />
-        <Blog />
-        <Page_Break />
-        <Whyus />
-        <Page_Break />
-        <AIObanner />
-        <Page_Break />
+        <Body />
         <Footer />
       </div>
     </div>

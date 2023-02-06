@@ -11,7 +11,7 @@ function Services() {
 
         {/* column cards */}
         <div class="card__row">
-          <div className="card__column">
+          <div className="card__column one">
             <div className="card">
               <img src={seo_icon} alt="seo icon" height="100" width="100" />
               <h3> Search Engine Optimization</h3>
@@ -24,7 +24,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="column">
+          <div className="card__column two">
             <div className="card">
               <img src={seo_icon} alt="seo icon" height="100" width="100" />
               <h3> Website Development</h3>
@@ -37,7 +37,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="column">
+          <div className="card__column three">
             <div className="card">
               <img src={seo_icon} alt="seo icon" height="100" width="100" />
               <h3> Social Media Marketing</h3>

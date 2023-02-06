@@ -1,1 +1,9 @@
 export { default as Page_Break } from "./page_break/Page_Break";
+export { default as Divder } from "./section_divider/Divider";
+export { default as Brands } from "../component/brands/Brands";
+export { default as Services } from "../component/services/Services";
+export { default as Testimonial } from "../component/testimonial/Testimonial";
+export { default as CTA } from "../component/cta/CTA";
+export { default as Blog } from "../component/blog/Blog";
+export { default as Whyus } from "../component/whyus/Whyus";
+export { default as AIObanner } from "../component/aiobanner/AIObanner";
